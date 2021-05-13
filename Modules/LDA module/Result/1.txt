@@ -1,0 +1,16 @@
+For topic 1 the top 15 words are:
+0) researchers
+1) scientists
+2) science
+3) health
+4) years
+5) disease
+6) research
+7) just
+8) university
+9) food
+10) new
+11) study
+12) like
+13) people
+14) says

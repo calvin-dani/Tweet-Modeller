@@ -1,0 +1,16 @@
+For topic 5 the top 15 words are:
+0) new
+1) china
+2) united
+3) people
+4) npr
+5) military
+6) war
+7) russia
+8) country
+9) security
+10) government
+11) says
+12) trump
+13) president
+14) said
