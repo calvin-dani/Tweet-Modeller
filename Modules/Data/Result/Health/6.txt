@@ -1,0 +1,16 @@
+For topic 6 the top 15 words are:
+0) check
+1) work
+2) data
+3) studies
+4) year
+5) patient
+6) says
+7) stanford
+8) covid19
+9) experts
+10) isolation
+11) rt
+12) like
+13) people
+14) https

@@ -1,0 +1,16 @@
+For topic 1 the top 15 words are:
+0) stanford
+1) new
+2) build
+3) countries
+4) resilience
+5) improve
+6) strategies
+7) way
+8) rt
+9) study
+10) https
+11) 10
+12) vaccines
+13) 19
+14) covid
