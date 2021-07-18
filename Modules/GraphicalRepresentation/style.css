@@ -1,0 +1,25 @@
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: white;
+  stroke: blue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.link {
+
+  fill: none;
+  stroke: rgb(66, 69, 255);
+  stroke-width: 0.5px;
+}
+
+.container {
+  overflow: auto;
+}
