@@ -36,7 +36,9 @@ def transcribe_file(topic):
                         audio_channel_count=2,
                     )
 
-                    operation = client.long_running_recognize(config=config, audio=audio)
+                    operation = client.long_running_recognize(
+                        config=config, audio=audio
+                    )
 
                     print("Waiting for operation to complete...")
                     response = operation.result(timeout=90)
@@ -47,6 +49,8 @@ def transcribe_file(topic):
                         # The first alternative is the most likely one for this portion.
                         text += result.alternatives[0].transcript
                     file_name = audio_file[:-4]
-                    with open(f".\\Data\\Text_translated\\{tweeter_handle}\\{file_name}.txt", "w") as fhandle:
+                    with open(
+                        f".\\Data\\Text_translated\\{tweeter_handle}\\{file_name}.txt",
+                        "w",
+                    ) as fhandle:
                         fhandle.write(text)
-

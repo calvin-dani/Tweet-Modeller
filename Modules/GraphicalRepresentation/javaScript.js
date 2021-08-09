@@ -1,13 +1,13 @@
-var margin = {top: 5000, right: 120, bottom: 10000, left: 320},
-height = 10000,
-width  = 15000;
-
+var margin = {top: 20, right: 120, bottom: 20, left: 320},
+    width = 10000 ,
+    height = 600;
+    
 var i = 0,
     duration = 750,
     root;
 
 var tree = d3.layout.tree()
-    .nodeSize([20,20]);
+    .size([height, width]);
 
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
@@ -16,7 +16,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate("+ margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
 d3.json("Health.json", function(error, data) {
   root = data;
@@ -62,7 +62,7 @@ function update(source) {
 
   nodeEnter.append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-      .attr("dy", ".20em")
+      .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6);
