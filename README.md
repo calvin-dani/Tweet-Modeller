@@ -173,9 +173,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Recharts and D3.js for data visualization
 - The health and science community for providing valuable content
 
-## 📞 Support
-
-For support, email support@multimodal-lda.com or create an issue in the repository.
 
 ---
 
