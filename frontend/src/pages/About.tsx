@@ -71,13 +71,13 @@ const About: React.FC = () => {
       <Box className="hero-section">
         <Container maxWidth="lg">
           <Typography variant="h2" component="h1" gutterBottom sx={{ fontWeight: 'bold', mb: 3 }}>
-            About Tweet Modeller
+            About Multimodal LDA Topic Summarizer
           </Typography>
           <Typography variant="h5" component="h2" gutterBottom sx={{ mb: 4, opacity: 0.9 }}>
             Revolutionizing Text Mining for Health & Science Data
           </Typography>
           <Typography variant="body1" sx={{ mb: 4, maxWidth: '800px', mx: 'auto', fontSize: '1.1rem' }}>
-            Tweet Modeller addresses the critical challenge of extracting meaningful insights from 
+            Multimodal LDA Topic Summarizer addresses the critical challenge of extracting meaningful insights from 
             unstructured social media data, particularly multimedia content embedded in health and 
             science communications.
           </Typography>
@@ -112,7 +112,7 @@ const About: React.FC = () => {
                 Our Solution
               </Typography>
               <Typography variant="body1" paragraph>
-                Tweet Modeller bridges this gap by implementing a comprehensive pipeline that converts 
+                Multimodal LDA Topic Summarizer bridges this gap by implementing a comprehensive pipeline that converts 
                 multimedia content into analyzable text and applies advanced topic modeling techniques.
               </Typography>
               <Typography variant="body1">

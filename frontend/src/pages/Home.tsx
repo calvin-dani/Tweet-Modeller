@@ -102,7 +102,7 @@ const Home: React.FC = () => {
       <Box className="hero-section">
         <Container maxWidth="lg">
           <Typography variant="h2" component="h1" gutterBottom sx={{ fontWeight: 'bold', mb: 3 }}>
-            Tweet Modeller
+            Multimodal LDA Topic Summarizer
           </Typography>
           <Typography variant="h5" component="h2" gutterBottom sx={{ mb: 4, opacity: 0.9 }}>
             Advanced Text Mining System for Health & Science Data

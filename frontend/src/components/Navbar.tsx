@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             fontSize: '1.5rem',
           }}
         >
-          Tweet Modeller
+          Multimodal LDA Topic Summarizer
         </Typography>
         
         <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2 }}>
